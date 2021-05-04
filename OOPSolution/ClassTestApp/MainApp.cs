@@ -28,7 +28,7 @@ namespace ClassTestApp
             nero.Color = "검은";
             nero.Meow();
 
-
+            
             // 기본 생성자 와 추가 생성자
             Cat mimi = new Cat("미미", "노랑", 3);
             mimi.Meow();
