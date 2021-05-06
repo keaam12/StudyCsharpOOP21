@@ -8,7 +8,24 @@ namespace QueueTestApp
     {
         static void Main(string[] args)
         {
+
+
+
+
+
+
             #region 스택큐 로직 영역
+
+
+            Hashtable dictionary = new Hashtable();
+            dictionary["book"] = "책";
+            dictionary["cook"] = "요리사";
+            dictionary["tweet"] = "지저귀다";
+            dictionary["whale"] = "고래";
+
+            Console.WriteLine(dictionary["tweet"]);
+
+            // Hashtable은 키가 따로있다. arraylist는 index값만 있(key의 역할 수행, 그러나 지정 X)
             Console.WriteLine("Queue 테스트");
 
             
