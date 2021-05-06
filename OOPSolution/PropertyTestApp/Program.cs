@@ -30,11 +30,11 @@ namespace PropertyTestApp
             dog1.Age = 10;
 
 
-/*
-            Dog dog2 = new Dog();
+
+           /* Dog dog = new Dog();
             {
-                Name = "깜장이",
                 Age = 5,
+                Name = "깜장이",
                 Color = "검정" 
             }; */
 

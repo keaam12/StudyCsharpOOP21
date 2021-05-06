@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace AttayTestApp
 {
@@ -10,8 +11,8 @@ namespace AttayTestApp
 
 
             //초기화
-            int[] scores = new int[10];
-            scores[0] = 80;
+            int[] scores = { 80, 74, 81, 94, 100};
+            /* scores[0] = 80;
             scores[1] = 74;
             scores[2] = 81;
             scores[3] = 94;
@@ -20,7 +21,7 @@ namespace AttayTestApp
             scores[6] = 55;
             scores[7] = 96;
             scores[8] = 70;
-            scores[9] = 88;
+            scores[9] = 88; */
 
             // 학생 수학점수 총합
             int sum = 0;
@@ -31,12 +32,11 @@ namespace AttayTestApp
 
             foreach (var item in scores)
             {
-                sum *= item;
+                sum += item;
             }
 
             //평균
             float average =(float) sum / scores.Length;
-
             Console.WriteLine($"수학점수 총합 : {sum}, 평균 : {average} ");
         }
     }
