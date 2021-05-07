@@ -18,6 +18,11 @@ namespace IndexerTestApp
             {
                 Console.WriteLine(list[i]);
             }
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
