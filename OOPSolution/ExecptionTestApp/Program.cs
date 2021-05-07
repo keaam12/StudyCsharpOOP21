@@ -12,13 +12,13 @@ namespace ExceptionTestApp
 
                 try
                 {
-                    var result = list[i] / 0;
+                    var result = list[1] / 10;
                     for (int i = 0; i < 5; i++)
                     {
                         Console.WriteLine(list[i]);
                     }
                 }
-                catch (IndexOutOfRangeException ex)
+                 /* catch (IndexOutOfRangeException ex)
                 {
                     //예외 발생시 다른일 처리
                     Console.WriteLine(ex.Message);
@@ -29,7 +29,12 @@ namespace ExceptionTestApp
                 {
                     Console.WriteLine($"예외발생 : {ex.Message}");
                     Console.WriteLine("DivdeByZeroException 이후 처리!!");
-                }
+                } */
+
+                catch (Exception ex)
+            {
+                Console.WriteLine($"예외발생 : {ex.Message}");
+            }
 
             // exception 만으로 모든 예외 처리 가능
             // 다양한 case로 나누기 위해서 필요!
@@ -38,7 +43,7 @@ namespace ExceptionTestApp
 
             finally
             {
-
+                Console.WriteLine("Finally, 언제든지 실행됨.");
             }
                 Console.WriteLine("다른 로직 수행");
 
