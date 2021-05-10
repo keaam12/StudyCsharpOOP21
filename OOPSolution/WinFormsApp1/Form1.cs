@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NLog;
 
 namespace WinFormsApp1
 {
     public partial class MainForm : Form
     {
+        static readonly Logger logger = LogManager.GetCurrentClassLogger();
         public MainForm()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace WinFormsApp1
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            logger.Info("MainForm 로드");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -31,6 +33,20 @@ namespace WinFormsApp1
         {
             var result = TxtUserID.Text + "\n" + TxtPassword.Text;
             MessageBox.Show($"당신의 아이디와 패스워드는 {result}");
+
+            try
+            {
+                var val = TxtPassword.Text.Substring(3, 2); // 문자열 자르는 메서드
+                MessageBox.Show($"{val}");
+                logger.Info("제대로 완료!");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("예외발생, 관리자에게 문의요먕");
+                logger.Error("예외발생, 관리자에게 문의요망");
+                logger.Error($"{ex}");
+            }
         }
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)

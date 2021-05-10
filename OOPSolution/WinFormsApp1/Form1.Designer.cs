@@ -39,7 +39,7 @@ namespace WinFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(168, 120);
+            this.label1.Location = new System.Drawing.Point(89, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 20);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace WinFormsApp1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(168, 184);
+            this.label2.Location = new System.Drawing.Point(71, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 20);
             this.label2.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace WinFormsApp1
             // 
             // TxtUserID
             // 
-            this.TxtUserID.Location = new System.Drawing.Point(259, 120);
+            this.TxtUserID.Location = new System.Drawing.Point(168, 45);
             this.TxtUserID.Name = "TxtUserID";
             this.TxtUserID.Size = new System.Drawing.Size(231, 27);
             this.TxtUserID.TabIndex = 2;
@@ -65,7 +65,7 @@ namespace WinFormsApp1
             // 
             // TxtPassword
             // 
-            this.TxtPassword.Location = new System.Drawing.Point(259, 177);
+            this.TxtPassword.Location = new System.Drawing.Point(168, 86);
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Size = new System.Drawing.Size(231, 27);
             this.TxtPassword.TabIndex = 3;
@@ -74,7 +74,7 @@ namespace WinFormsApp1
             // 
             // BtnLogin
             // 
-            this.BtnLogin.Location = new System.Drawing.Point(532, 167);
+            this.BtnLogin.Location = new System.Drawing.Point(435, 67);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(123, 46);
             this.BtnLogin.TabIndex = 4;
@@ -85,7 +85,7 @@ namespace WinFormsApp1
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1291, 612);
+            this.ClientSize = new System.Drawing.Size(587, 149);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.TxtUserID);
