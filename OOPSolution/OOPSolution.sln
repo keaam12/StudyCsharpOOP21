@@ -23,23 +23,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTestApp", "QueueTestAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{B949009A-6813-45E6-9DC7-AF5D884CEEEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralizationTestApp", "GeneralizationTestApp\GeneralizationTestApp.csproj", "{8CA0B38A-1B2A-4AFF-932A-A4741477E4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneralizationTestApp", "GeneralizationTestApp\GeneralizationTestApp.csproj", "{8CA0B38A-1B2A-4AFF-932A-A4741477E4FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{7B4E9BEA-B781-435B-918A-594939C47A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{7B4E9BEA-B781-435B-918A-594939C47A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{31B61036-2124-49EA-B9AD-114695D7E09F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{31B61036-2124-49EA-B9AD-114695D7E09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{282239D3-B525-4633-8A75-02AF373E7BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{282239D3-B525-4633-8A75-02AF373E7BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecptionTestApp", "ExecptionTestApp\ExecptionTestApp.csproj", "{AF16F645-4FAA-482C-A1F3-E91F2CAC469B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecptionTestApp", "ExecptionTestApp\ExecptionTestApp.csproj", "{AF16F645-4FAA-482C-A1F3-E91F2CAC469B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegaateTestApp", "DelegaateTestApp\DelegaateTestApp.csproj", "{94F681BB-D01F-4AF5-AF3A-9350D9144397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegaateTestApp", "DelegaateTestApp\DelegaateTestApp.csproj", "{94F681BB-D01F-4AF5-AF3A-9350D9144397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{61382156-B9E9-449B-A466-94D20E83BF33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{61382156-B9E9-449B-A466-94D20E83BF33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{8300C5B8-9A6B-4A3A-BA4A-C1E78CF3B0BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{8300C5B8-9A6B-4A3A-BA4A-C1E78CF3B0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{67F0852E-65F6-4F4B-A172-C18986505FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{67F0852E-65F6-4F4B-A172-C18986505FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamdaTestApp", "LamdaTestApp\LamdaTestApp.csproj", "{D5107403-510C-4734-8682-9EC0D8EA06F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTestApp", "LinqTestApp\LinqTestApp.csproj", "{87531B20-1B1E-40D2-8DBB-A67186C05EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionTestApp", "ReflectionTestApp\ReflectionTestApp.csproj", "{94266BA0-C61E-4D5D-96A7-E67A45F3E775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynCreationTestApp", "DynCreationTestApp\DynCreationTestApp.csproj", "{6C1958F9-1159-4C23-A7D2-BE3EA5F60273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeTestApp", "AttributeTestApp\AttributeTestApp.csproj", "{6B08E2DE-32CC-4042-8522-39ECEA395B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +133,26 @@ Global
 		{67F0852E-65F6-4F4B-A172-C18986505FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F0852E-65F6-4F4B-A172-C18986505FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F0852E-65F6-4F4B-A172-C18986505FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5107403-510C-4734-8682-9EC0D8EA06F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5107403-510C-4734-8682-9EC0D8EA06F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5107403-510C-4734-8682-9EC0D8EA06F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5107403-510C-4734-8682-9EC0D8EA06F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87531B20-1B1E-40D2-8DBB-A67186C05EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87531B20-1B1E-40D2-8DBB-A67186C05EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87531B20-1B1E-40D2-8DBB-A67186C05EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87531B20-1B1E-40D2-8DBB-A67186C05EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94266BA0-C61E-4D5D-96A7-E67A45F3E775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94266BA0-C61E-4D5D-96A7-E67A45F3E775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94266BA0-C61E-4D5D-96A7-E67A45F3E775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94266BA0-C61E-4D5D-96A7-E67A45F3E775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1958F9-1159-4C23-A7D2-BE3EA5F60273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1958F9-1159-4C23-A7D2-BE3EA5F60273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1958F9-1159-4C23-A7D2-BE3EA5F60273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1958F9-1159-4C23-A7D2-BE3EA5F60273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B08E2DE-32CC-4042-8522-39ECEA395B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B08E2DE-32CC-4042-8522-39ECEA395B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B08E2DE-32CC-4042-8522-39ECEA395B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B08E2DE-32CC-4042-8522-39ECEA395B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
